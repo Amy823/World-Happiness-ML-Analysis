@@ -8,28 +8,38 @@
 ## 📊 數據分析與視覺化
 
 ### 1. 數據特徵概覽
-了解資料集的基本分佈與變數定義。
-![Data Variables](figures/01_data_variables_overview.png)
+### 1. 資料集變數摘要 (Data Overview)
+本專案分析 2024 年世界幸福報告之 7 大核心變數，數據摘要如下：
+
+| 變數名稱 | 定義 | 數據性質 |
+| :--- | :--- | :--- |
+| **Ladder score** | 幸福指數分數 | 目標變數 |
+| **GDP per capita** | 人均 GDP | 經濟指標 |
+| **Social support** | 社會支持網絡 | 社會指標 |
+| **Healthy life expectancy** | 健康預期壽命 | 健康指標 |
+| **Freedom** | 生活選擇自由度 | 制度指標 |
+| **Generosity** | 慷慨程度 | 文化指標 |
+| **Perceptions of corruption** | 政治貪腐感知 | 治理指標 |
 
 ### 2. 特徵相關性熱圖 (Heatmap)
 分析幸福指數與各個變數之間的相關性，社會支持與 GDP 顯示出高度相關。
-![Feature Correlation](figures/02_feature_correlation_heatmap.png)
+![Feature Correlation](figures/feature_correlation_heatmap.png)
 
 ### 3. 線性迴歸預測模型
 運用線性迴歸 (Linear Regression) 建立預測模型，模型 R² 達到 0.843，具備良好的解釋能力。
-![Regression Results](figures/03_linear_regression_results.png)
+![Regression Results](figures/linear_regression_results.png)
 
 ### 4. PCA 主成分分析與 K-Means 分群
 運用 PCA 降維後進行 K-Means 分群，成功將國家分為「發展中奮鬥」、「生存挑戰」與「幸福繁榮」三大類。
-![PCA Clustering](figures/04_pca_kmeans_clustering.png)
+![PCA Clustering](figures/feature_correlation_heatmap.png)
 
 ### 5. 階層式聚類樹狀圖 (Dendrogram)
 透過樹狀圖驗證不同分群方法的一致性。
-![Dendrogram](figures/05_hierarchical_clustering_dendrogram.png)
+![Dendrogram](figures/hierarchical_clustering_dendrogram.png)
 
 ### 6. 全球幸福指數地理分布
 視覺化呈現全球各國的幸福指數現況。
-![Global Map](figures/06_global_happiness_map.png)
+![Global Map](figures/global_happiness_map.png)
 
 ## 🚀 專案結構
 ```text
