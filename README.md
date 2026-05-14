@@ -31,7 +31,7 @@
 
 ### 4. PCA 主成分分析與 K-Means 分群
 運用 PCA 降維後進行 K-Means 分群，成功將國家分為「發展中奮鬥」、「生存挑戰」與「幸福繁榮」三大類。
-![PCA Clustering](figures/feature_correlation_heatmap.png)
+![PCA Clustering](figures/pca_kmeans_clustering.png)
 
 ### 5. 階層式聚類樹狀圖 (Dendrogram)
 透過樹狀圖驗證不同分群方法的一致性。
