@@ -30,7 +30,7 @@
 ![Regression Results](figures/linear_regression_results.png)
 
 ### 4. PCA 主成分分析與 K-Means 分群
-運用 PCA 降維後進行 K-Means 分群，成功將國家分為「發展中奮鬥」、「生存挑戰」與「幸福繁榮」三大類。
+運用 PCA 降維後進行 K-Means 分群，將國家分為「發展中奮鬥」、「生存挑戰」與「幸福繁榮」三大類。
 ![PCA Clustering](figures/pca_kmeans_clustering.png)
 
 ### 5. 階層式聚類樹狀圖 (Dendrogram)
@@ -40,12 +40,3 @@
 ### 6. 全球幸福指數地理分布
 視覺化呈現全球各國的幸福指數現況。
 ![Global Map](figures/global_happiness_map.png)
-
-## 🚀 專案結構
-```text
-.
-├── data/                       # 存放原始資料集 (CSV)
-│   └── World-happiness-report-2024.csv
-├── figures/                    # 存放分析產出的視覺化圖表
-├── world_happiness_ml_analysis.ipynb  # 核心 Jupyter Notebook 程式碼
-└── README.md                   # 專案說明文件
