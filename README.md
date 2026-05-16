@@ -18,9 +18,9 @@
 
 ## 📊 分析方法與技術架構 (Methodology & Technical Architecture)
 專案核心技術架構如下：
-1. **探索性資料分析 (EDA)**：進行缺失值與異常值清洗，並利用熱力圖 (Heatmap) 檢視特徵間的共線性。
-2. **監督式學習建模**：應用線性迴歸模型 (Linear Regression) 建立幸福指數預測，精確捕捉各特徵之預測權重。
-3. **非監督式學習分群**：透過**肘部法 (Elbow Method)** 與**輪廓係數 (Silhouette Score)** 評估最優分群數，選定 $K = 3$ 作為全球發展分群基準，並導入**主成分分析 (PCA)** 進行降維與特徵空間視覺化，最後透過**階層式聚類 (Hierarchical Clustering)** 驗證分群之一致性。
+* **探索性資料分析 (EDA)**：進行缺失值與異常值清洗，並利用熱力圖 (Heatmap) 檢視特徵間的共線性。
+* **監督式學習建模**：應用線性迴歸模型 (Linear Regression) 建立幸福指數預測，精確捕捉各特徵之預測權重。
+* **非監督式學習分群**：透過**肘部法 (Elbow Method)** 與**輪廓係數 (Silhouette Score)** 評估最優分群數，選定 $K = 3$ 作為全球發展分群基準，並導入**主成分分析 (PCA)** 進行降維與特徵空間視覺化，最後透過**階層式聚類 (Hierarchical Clustering)** 驗證分群之一致性。
 
 ## 🔍 關鍵研究發現與視覺化 (Key Findings & Visualizations)
 ### 1. 特徵相關性熱力圖 (Heatmap)
