@@ -34,11 +34,11 @@
 ![Feature Correlation](figures/feature_correlation_heatmap.png)
 
 ### 2. 線性迴歸預測模型
-運用線性迴歸 (Linear Regression) 建立預測模型，模型 R² 達到 0.843，具備良好的解釋能力，揭示「選擇生活的自由度」為幸福感的關鍵預測因子。。
+運用線性迴歸 (Linear Regression) 建立預測模型， R² 達到 0.843，具備良好的解釋能力，揭示「選擇生活的自由度」為幸福感的關鍵預測因子。
 ![Regression Results](figures/linear_regression_results.png)
 
 ### 3. PCA 主成分分析
-透過 K-Means 將全球國家劃分為「發展中奮鬥」、「生存挑戰」與「幸福繁榮」三大群組。將代表性國家標記至 PCA 空間後，數據呈現顯著的**「區域集聚效應 (Regional Agglomeration Effect)」**——如芬蘭、丹麥等歐洲國家高度群聚，證明地理區域與體制背景具有深刻影響。
+透過 K-Means 將全球國家劃分為「發展中奮鬥」、「生存挑戰」與「幸福繁榮」三大群組。將代表性國家標記至 PCA 空間後，數據呈現顯著的「區域集聚效應 (Regional Agglomeration Effect)」—— 如芬蘭、丹麥等歐洲國家高度群聚，證明地理區域與體制背景具有深刻影響。
 ![PCA Clustering](figures/pca_kmeans_clustering.png)
 
 ### 4. 階層式聚類樹狀圖 (Dendrogram)
@@ -52,7 +52,7 @@
 ---
 
 ## 💡 實作價值與政策展望 (Project Value & Policy Outlook)
-* **結論與政策建議：**：針對不同分群國家提出差異化建議，「生存挑戰組」首要任務為穩定健康基礎設施；「發展中奮鬥組」則須著重提升社會信任度與降低政治貪腐感知。
+* **結論與政策建議**：針對不同分群國家提出差異化建議，「生存挑戰組」首要任務為穩定健康基礎設施；「發展中奮鬥組」則須著重提升社會信任度與降低政治貪腐感知。
 * **未來研究建議**：可進一步納入環境永續或心理健康等多元變數，以建立更全面的幸福感評估。
 
 ---
