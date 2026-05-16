@@ -54,4 +54,8 @@
 
 ## 🛠️ 團隊分工與技術工具 (Contributions & Tech Stack)
 * **團隊分工**：由團隊共同討論構思。
-* **技術工具**：Python (Pandas, NumPy) ｜ 視覺化 (Matplotlib, Seaborn) ｜ 機器學習 (Scikit-learn) ｜ 科學計算 (SciPy)
+- **語言**：Python 3.x
+- **數據處理**：Pandas, NumPy
+- **機器學習**：Scikit-learn (Linear Regression, K-Means, PCA)
+- **科學計算**：SciPy (Hierarchical Clustering)
+- **視覺化**：Matplotlib, Seaborn
