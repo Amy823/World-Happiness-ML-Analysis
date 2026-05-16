@@ -29,6 +29,7 @@
 
 ### 2. 線性迴歸預測模型
 運用線性迴歸 (Linear Regression) 建立預測模型， R² 達到 0.843，具備良好的解釋能力，揭示「選擇生活的自由度」為幸福感的關鍵預測因子。
+
 ![Regression Results](figures/linear_regression_results.png)
 
 ### 3. PCA 主成分分析
