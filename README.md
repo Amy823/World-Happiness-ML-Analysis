@@ -60,3 +60,7 @@
   - **機器學習**：Scikit-learn (Linear Regression, K-Means, PCA)
   - **科學計算**：SciPy (Hierarchical Clustering)
   - **視覺化**：Matplotlib, Seaborn
+
+## 📁 專案資源 (Project Resources)
+- 🐍 **[核心分析程式碼 (Jupyter Notebook)](./world_happiness_ml_analysis.ipynb)**：包含資料清理、預處理、線性迴歸與 K-Means/PCA 機器學習建模之程式碼。
+- 📈 **[研究簡報 (PDF Report)](./presentation/World_Happiness_Report.pdf)**
