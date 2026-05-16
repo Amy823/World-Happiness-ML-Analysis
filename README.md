@@ -28,7 +28,7 @@
 
 ---
 
-## 三、關鍵研究發現與視覺化 (Key Findings & Visualizations)
+## 📌關鍵研究發現與視覺化 (Key Findings & Visualizations)
 ### 1. 特徵相關性熱力圖 (Heatmap)
 分析幸福指數與各個變數之間的相關性，「社會支持」及「人均 GDP」與幸福指數呈現高度正相關。
 ![Feature Correlation](figures/feature_correlation_heatmap.png)
