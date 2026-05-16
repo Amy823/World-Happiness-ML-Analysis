@@ -25,6 +25,7 @@
 ## 🔍 關鍵研究發現與視覺化 (Key Findings & Visualizations)
 ### 1. 特徵相關性熱力圖 (Heatmap)
 分析幸福指數與各個變數之間的相關性，「社會支持」及「人均 GDP」與幸福指數呈現高度正相關。
+
 ![Feature Correlation](figures/feature_correlation_heatmap.png)
 
 ### 2. 線性迴歸預測模型
@@ -34,14 +35,17 @@
 
 ### 3. PCA 主成分分析
 透過 K-Means 將全球國家劃分為「發展中奮鬥」、「生存挑戰」與「幸福繁榮」三大群組。將代表性國家標記至 PCA 空間後，數據呈現顯著的「區域集聚效應 (Regional Agglomeration Effect)」—— 如芬蘭、丹麥等歐洲國家高度群聚，證明地理區域與體制背景具有深刻影響。
+
 ![PCA Clustering](figures/pca_kmeans_clustering.png)
 
 ### 4. 階層式聚類樹狀圖 (Dendrogram)
 透過樹狀圖（Dendrogram）驗證不同分群方法的一致性。
+
 ![Dendrogram](figures/hierarchical_clustering_dendrogram.png)
 
 ### 5. 全球幸福指數地理分布
 視覺化呈現全球各國的幸福指數現況。
+
 ![Global Map](figures/global_happiness_map.png)
 
 ## 💡 實作價值與政策展望 (Project Value & Policy Outlook)
